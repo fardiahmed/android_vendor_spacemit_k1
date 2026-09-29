@@ -27,14 +27,17 @@ prebuilt_firmware {
     name: "rtl8852bs_fw",
     vendor: true,
     src: "rtlbt/rtl8852bs_fw",
-    sub_dir: "rtlbt",
+    // btrtl requests rtl_bt/<name>.bin
+    filename: "rtl8852bs_fw.bin",
+    sub_dir: "rtl_bt",
 }
 
 prebuilt_firmware {
     name: "rtl8852bs_config",
     vendor: true,
     src: "rtlbt/rtl8852bs_config",
-    sub_dir: "rtlbt",
+    filename: "rtl8852bs_config.bin",
+    sub_dir: "rtl_bt",
 }
 
 // VPU Linlon firmware
