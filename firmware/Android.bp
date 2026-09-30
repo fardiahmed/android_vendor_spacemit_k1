@@ -1,0 +1,151 @@
+// Copyright (C) 2024 The Android Open Source Project
+// SPDX-License-Identifier: Apache-2.0
+
+// GPU PowerVR firmware
+prebuilt_firmware {
+    name: "rgx.fw.36.29.52.182",
+    vendor: true,
+    src: "powervr/rgx.fw.36.29.52.182",
+}
+
+prebuilt_firmware {
+    name: "rgx.sh.36.29.52.182",
+    vendor: true,
+    src: "powervr/rgx.sh.36.29.52.182",
+}
+
+// WiFi RTL8852BS firmware
+prebuilt_firmware {
+    name: "rtw8852b_fw.bin",
+    vendor: true,
+    src: "rtw89/rtw8852b_fw.bin",
+    sub_dir: "rtw89",
+}
+
+// Bluetooth RTL8852BS firmware
+prebuilt_firmware {
+    name: "rtl8852bs_fw",
+    vendor: true,
+    src: "rtlbt/rtl8852bs_fw",
+    sub_dir: "rtlbt",
+}
+
+prebuilt_firmware {
+    name: "rtl8852bs_config",
+    vendor: true,
+    src: "rtlbt/rtl8852bs_config",
+    sub_dir: "rtlbt",
+}
+
+// VPU Linlon firmware
+prebuilt_firmware {
+    name: "h264dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/h264dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "h264enc.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/h264enc.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "hevcdec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/hevcdec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "hevcenc.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/hevcenc.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "vp8dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/vp8dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "vp8enc.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/vp8enc.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "vp9dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/vp9dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "vp9enc.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/vp9enc.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "jpegdec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/jpegdec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "jpegenc.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/jpegenc.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "mpeg2dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/mpeg2dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "mpeg4dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/mpeg4dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "avsdec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/avsdec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "avs2dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/avs2dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "vc1dec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/vc1dec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
+
+prebuilt_firmware {
+    name: "rvdec.fwb",
+    vendor: true,
+    src: "linlon-v52_v76-80-2/rvdec.fwb",
+    sub_dir: "linlon-v52_v76-80-2",
+}
